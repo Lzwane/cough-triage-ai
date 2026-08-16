@@ -79,14 +79,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Cough Afrika — AI TB Screening & Clinical Triage" },
+      { name: "description", content: "Cough Afrika combines a symptom questionnaire with cough audio analysis to triage tuberculosis risk in low-resource communities." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Cough Afrika — AI TB Screening & Clinical Triage" },
+      { property: "og:description", content: "Cough Afrika combines a symptom questionnaire with cough audio analysis to triage tuberculosis risk in low-resource communities." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Cough Afrika — AI TB Screening & Clinical Triage" },
+      { name: "twitter:description", content: "Cough Afrika combines a symptom questionnaire with cough audio analysis to triage tuberculosis risk in low-resource communities." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/054979458a2c320acc6527f3e6965c1b/id-preview-525a3993--ec364ecf-54bb-4229-9633-2fa9cffbba74.lovable.app-1786873973496.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/054979458a2c320acc6527f3e6965c1b/id-preview-525a3993--ec364ecf-54bb-4229-9633-2fa9cffbba74.lovable.app-1786873973496.png" },
     ],
     links: [
       {

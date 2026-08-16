@@ -25,7 +25,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Multi-modal TB screening: symptom burden scoring plus cough acoustics, with clear referral guidance for GeneXpert testing.",
+          "Cough Afrika combines a symptom questionnaire with cough audio analysis to triage tuberculosis risk in low-resource communities.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
